@@ -72,7 +72,7 @@
   
 
   .grad-text{
-    @apply bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
+    @apply bg-gradient-to-r from-purple-500 via-secondary-light to-primary-dark inline-block text-transparent bg-clip-text
   }
 
 
