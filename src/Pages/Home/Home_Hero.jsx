@@ -17,7 +17,7 @@ const Home_Hero = () => {
         <div className="flex flex-col gap-5">
           <h2 className="text-left font-fraunces text-3xl md:text-5xl leading-10 md:leading-15 font-thin">
             <div className="flex items-center justify-start gap-2">
-              <span>Hi, I'm</span>
+              <span className="whitespace-nowrap">Hi, I'm</span>
               <div
                 className="tooltip"
                 data-tip="hello"
@@ -29,11 +29,11 @@ const Home_Hero = () => {
                 </div>
                 <img
                 src="https://i.ibb.co.com/KjN8t2q7/bw.jpg"
-                className="w-12 md:w-16 rounded-full border-border"
+                className="w-10 md:w-16 rounded-full border-border"
               />
               </div>
               
-              <span>Masum Ahmed, </span>
+              <span className="whitespace-nowrap">Masum Ahmed, </span>
             </div>
             Junior <span className="grad-text">MERN</span> Stack Developer{" "}
             <br /> & Passionate about Problem Solving
