@@ -132,7 +132,7 @@
 }
 
 .g11 {
-  background: linear-gradient(to right, #ECE5FE, transparent, #ECE5FE);
+  background: linear-gradient(right, #ECE5FE, transparent, #ECE5FE);
 }
 
 .g12 {
@@ -147,9 +147,10 @@
   background: linear-gradient(transparent, #ECE5FE);
 }
 
-.g15{
-  background: linear-gradient( #2A3542, transparent);
+.g15 {
+  background: linear-gradient(180deg, #ECE5FE, transparent);
 }
+
 
 .g16{
   background: linear-gradient(transparent, #2A3542);

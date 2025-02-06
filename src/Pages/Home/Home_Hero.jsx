@@ -65,7 +65,7 @@ const Home_Hero = () => {
 
           {/* Bio */}
           <div>
-            <p className="text-gray-500 text-md">
+            <p className="text-gray-500 text-sm">
               I specialize in backend technology and love crafting seamless web
               experiences. Passionate about building scalable applications, I
               blend logic with creativity to develop dynamic and user-friendly

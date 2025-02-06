@@ -45,10 +45,10 @@ const Header = () => {
                   <Link>home</Link>
                 </li>
                 <li>
-                  <Link>about</Link>
+                  <Link>project</Link>
                 </li>
                 <li>
-                  <Link>project</Link>
+                  <Link>about</Link>
                 </li>
                 <li>
                   <Link>contact</Link>
@@ -64,10 +64,10 @@ const Header = () => {
                   <Link>home</Link>
                 </li>
                 <li>
-                  <Link>about</Link>
+                  <Link>project</Link>
                 </li>
                 <li>
-                  <Link>project</Link>
+                  <Link>about</Link>
                 </li>
                 <li>
                   <Link>contact</Link>
