@@ -3,8 +3,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiCodeforces } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
+import useLenis from "../../hooks/useLenis";
+
 
 const Home_Hero = () => {
+  useLenis();
   return (
     <section className="relative md:min-h-[110vh] overflow-hidden flex justify-start items-center py-[10vh] p-5 -mt-[15vh] md:-mt-[20vh] bg-[#FBFBFB] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[url('https://www.transparenttextures.com/patterns/asfalt-light.png')] before:opacity-10 before:pointer-events-none">
       {/* gradient blob */}
@@ -71,6 +74,12 @@ const Home_Hero = () => {
               blend logic with creativity to develop dynamic and user-friendly
               solutions. Beyond coding, I thrive on problem-solving.
             </p>
+          </div>
+
+          {/* Buttons */}
+          <div className="flex gap-2"> 
+          <a href='#contact-section' className="font-fraunces bg-purple-200 text-secondary-dark px-1 rounded-sm cursor-pointer">send hi</a>
+          <button className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</button>
           </div>
         </div>
       </div>

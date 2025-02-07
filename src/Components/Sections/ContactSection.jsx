@@ -79,7 +79,7 @@ const ContactSection = () => {
         {/* Submit Button */}
         <div className="flex items-center justify-center">
           <button
-            type="submit"
+            
             className="font-fraunces bg-secondary-dark text-white px-5 py-2 rounded-sm cursor-pointer hover:bg-secondary-light transition-all"
           >
             Send Message
