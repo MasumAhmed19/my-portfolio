@@ -2,6 +2,7 @@ import EncryptButton from "../../Components/Buttons/EncryptButton";
 import SectionTitle from "../../Components/others/SectionTitle";
 import Temp from "../../Components/others/Temp";
 import AboutSection from "../../Components/Sections/AboutSection";
+import ContactSection from "../../Components/Sections/ContactSection";
 import Home_Hero from "./Home_Hero";
 import Home_Projects from "./Home_Projects";
 import { MdOutlineArrowRight } from "react-icons/md";
@@ -31,6 +32,7 @@ const Home = () => {
       {/* COntact section */}
       <section id='contact-section' className="min-h-screen py-[100px] g14">
         <SectionTitle left="Let's Connect" right='Contact' />
+        <ContactSection />
 
       </section>
       
