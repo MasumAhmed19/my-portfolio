@@ -4,7 +4,7 @@ import EducationSection from "./EducationSection";
 const AboutSection = () => {
   return (
     <section className="w-full py-16">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         
         {/* Image Section */}
         <div className="w-60 h-60 md:w-80 md:h-80  overflow-hidden ">

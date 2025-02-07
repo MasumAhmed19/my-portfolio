@@ -1,16 +1,12 @@
-import { useState } from "react";
-import { CiMenuFries } from "react-icons/ci";
-import { Link } from "react-router-dom";
-import EncryptButton from "../Buttons/EncryptButton";
-import FlipLink from "../Buttons/FlipLink";
-import ButtonFlip from "../Buttons/ButtonFlip";
+import useLenis from "../../hooks/useLenis";
 
 const Header = () => {
+  // for smooth scroll
+  useLenis();
 
   return (
     <div className="sticky top-0 mx-3 z-[1000]">
       <div className="relative">
-
         <div className="max-w-4xl mx-auto py-3">
           <div className="navbar backdrop-blur-xl bg-[#EEC9EA70] rounded-xl px-5">
             <div className="navbar-start">
@@ -27,63 +23,62 @@ const Header = () => {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
-                    {" "}
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M4 6h16M4 12h8m-8 6h16"
-                    />{" "}
+                    />
                   </svg>
-                  
                 </div>
                 <ul
                   tabIndex={0}
-                  className="flex flex-col flex-wrap gap-4 menu-sm dropdown-content menu-horizontal rounded-box z-1 mt-3 w-52 p-2 shadow"
+                  className="flex flex-col bg-[#F6E5F4] flex-wrap gap-4 menu-sm dropdown-content menu-horizontal rounded-box z-1 mt-3 w-52 p-2 shadow font-fraunces "
                 >
-                  <li className="group bg-transparent">
-                  <Link>home</Link>
-                </li>
-                <li>
-                  <Link>project</Link>
-                </li>
-                <li>
-                  <Link>about</Link>
-                </li>
-                <li>
-                  <Link>contact</Link>
-                </li>
-                 
+                  
+                    <li className="group bg-transparent text-lg">
+                      <a href="#hero-section" >home</a>
+                    </li>
+                    <li>
+                      <a href="#project-section">project</a>
+                    </li>
+                    <li>
+                      <a href="#about-section">about</a>
+                    </li>
+                    <li>
+                      <a href="#contact-section">contact</a>
+                    </li>
+                  
                 </ul>
               </div>
-              <Link Link to='/' className="font-fraunces text-base">MasumAhmed</Link>
+              <a
+                href="/"
+                className="font-fraunces text-lg text-gray-800 font-semibold"
+              >
+                mas-um
+              </a>
             </div>
             <div className="navbar-center hidden lg:flex">
               <ul className="flex flex-wrap w-fit gap-4 menu-horizontal px-1 font-fraunces textarea-lg">
                 <li className="group bg-transparent">
-                  <Link>home</Link>
+                  <a href="#hero-section">home</a>
                 </li>
                 <li>
-                  <Link>project</Link>
+                  <a href="#project-section">project</a>
                 </li>
                 <li>
-                  <Link>about</Link>
+                  <a href="#about-section">about</a>
                 </li>
                 <li>
-                  <Link>contact</Link>
+                  <a href="#contact-section">contact</a>
                 </li>
-
-                
               </ul>
             </div>
             <div className="navbar-end">
-                {/* <EncryptButton btnText="Download Resume" to='/' /> */}
-                {/* <ButtonFlip btnText="Download Resume" to='/' /> */}
-                <button className="font-fraunces">Download Resume</button>
+              <button className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</button>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

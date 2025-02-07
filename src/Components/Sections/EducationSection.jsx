@@ -3,7 +3,7 @@ import React from "react";
 const educationData = [
   {
     id:1,
-    institution: "Bangladesh University of Business & Technology (BUBT)",
+    institution: "Bangladesh University of Business & Technology",
     degree: "3rd Year 1st Sem, B.Sc. in CSE",
     duration: "2023 - Present",
     location: "Dhaka",
@@ -34,7 +34,7 @@ const educationData = [
 const EducationSection = () => {
   return (
     <section className="w-full  text-black py-16">
-      <div className="max-w-5xl mx-auto px-6 gap-10">
+      <div className="max-w-4xl mx-auto px-6 gap-10">
         <h2 className="text-2xl font-fraunces text-gray-800 mb-4">
           Education
         </h2>

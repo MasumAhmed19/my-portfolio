@@ -26,6 +26,13 @@ const Home = () => {
         <SectionTitle left='Who am I' right='About' />
         <AboutSection />
       </section>
+
+
+      {/* COntact section */}
+      <section id='contact-section' className="min-h-screen py-[100px] g14">
+        <SectionTitle left="Let's Connect" right='Contact' />
+
+      </section>
       
     </div>
   );
