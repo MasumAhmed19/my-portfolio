@@ -22,7 +22,7 @@ const Home_Hero = () => {
             <div className="flex items-center justify-start gap-2">
               <span className="whitespace-nowrap">Hi, I'm</span>
               <div
-                className="tooltip"
+                className="tooltip tooltip-open"
                 data-tip="hello"
               >
                 <div className="tooltip-content">
@@ -38,7 +38,7 @@ const Home_Hero = () => {
               
               <span className="whitespace-nowrap">Masum Ahmed, </span>
             </div>
-            Junior <span className="grad-text">MERN</span> Stack Developer{" "}
+            Junior <span className="grad-text">Frontend</span> Developer{" "}
             <br /> & Passionate about Problem Solving
           </h2>
 
@@ -69,17 +69,14 @@ const Home_Hero = () => {
           {/* Bio */}
           <div>
             <p className="text-gray-500 text-sm">
-              I specialize in backend technology and love crafting seamless web
-              experiences. Passionate about building scalable applications, I
-              blend logic with creativity to develop dynamic and user-friendly
-              solutions. Beyond coding, I thrive on problem-solving.
+              I specialize in frontend technology and comfortable with backend technology. Passionate about problem solving and always eager to learn new technology and blend logic with creativity to develop dynamic and user-friendly solutions.
             </p>
           </div>
 
           {/* Buttons */}
           <div className="flex gap-2"> 
           <a href='#contact-section' className="font-fraunces bg-purple-200 text-secondary-dark px-1 rounded-sm cursor-pointer">send hi</a>
-          <button className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</button>
+          <a target="_blank" href='https://drive.google.com/file/d/1SoJVb9FBFxd85KuBbJhl03_Y8UIAqBaN/view' className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</a>
           </div>
         </div>
       </div>

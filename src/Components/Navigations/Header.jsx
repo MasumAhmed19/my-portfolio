@@ -75,7 +75,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="navbar-end">
-              <button className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</button>
+              <a target="_blank" href='https://drive.google.com/file/d/1SoJVb9FBFxd85KuBbJhl03_Y8UIAqBaN/view' className="font-fraunces bg-secondary-dark text-white px-1 rounded-sm cursor-pointer">download resume</a>
             </div>
           </div>
         </div>

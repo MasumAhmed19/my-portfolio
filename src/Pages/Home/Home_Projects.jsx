@@ -123,34 +123,32 @@ const Home_Projects = () => {
       subheading:
         "TeamLoom is an employee management system designed to monitor employee workload, manage salary records, and contracts.",
       imgSrc: "https://i.ibb.co.com/FqnTd8N4/Team-Loom-hero.png",
-      tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "Firebase", "Stripe"],
+      tags: ["ReactJS", "NodeJS", "MongoDB","TanStack Query" ,"JWT", "Firebase", "Stripe", "TailwindCSS"],
       liveLink: "https://teamloom-a1022.web.app/",
       githubRepo: "https://github.com/MasumAhmed19/TeamLoom-clientside",
-    },
-    {
+    },{
+      heading: "Suggestify",
+      subheading:
+        "Suggestify is a dynamic product recommendation platform that helps users discover better alternatives for their favorite products.",
+      imgSrc: "https://i.ibb.co.com/7J0T37mh/suggestify-hero.png",
+      tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "Firebase", "TailwindCSS"],
+      liveLink: "https://suggestify-28d19.web.app/",
+      githubRepo: "https://github.com/MasumAhmed19/Suggestify_Client",
+    },{
       heading: "Career Counselling",
       subheading:
         "This project is a Career Counseling Website developed as part of an assignment. It provides users with personalized career advice and resources.",
       imgSrc: "https://i.ibb.co.com/6JPDCk9q/career-counselling.png",
-      tags: ["ReactJS", "Firebase", "Routing", "Tailwind"],
+      tags: ["ReactJS", "Firebase", "Routing", "TailwindCSS"],
       liveLink: "https://career-counseling-mas.netlify.app/",
       githubRepo: "https://github.com/MasumAhmed19/careercounselling",
-    },
-    {
-      heading: "Suggestify",
-      subheading:
-        "Suggestify is a dynamic product recommendation platform that helps users discover better alternatives for their favorite products.",
-      imgSrc: "https://i.ibb.co.com/ffdNDQ2/suggestify-hero.png",
-      tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "Firebase"],
-      liveLink: "https://suggestify-28d19.web.app/",
-      githubRepo: "https://github.com/MasumAhmed19/Suggestify_Client",
     },
     {
       heading: "EquiSports",
       subheading:
         "EquiSports is a responsive sports equipment e-commerce platform where customers can explore, review, and manage various sports accessories.",
       imgSrc: "https://i.ibb.co.com/8nkc5QXx/Equi-Sports.png",
-      tags: ["ReactJS", "NodeJS", "MongoDB", "Firebase", "Sorting"],
+      tags: ["ReactJS", "NodeJS", "MongoDB", "Firebase", "TailwindCSS"],
       liveLink: "https://equisports-mas.netlify.app/",
       githubRepo: "https://github.com/MasumAhmed19/EquipSports-clientside",
     },
